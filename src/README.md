@@ -18,52 +18,35 @@ Python version: **Python 3.9+**
 Các thư viện cần thiết:
 
 ```
-pandas
-numpy
-matplotlib
-seaborn
-scikit-learn
+    + pandas
+    + numpy
+    + matplotlib
+    + seaborn
+    + scikit-learn
 
 ## Cách chạy notebook: 
 - B1: Mở Jupyter Notebook/ VS Code
-- B2: Mở Kernel -> Run All Cells
+- B2: Mở file phongtro_data_analysis.ipynb
+- B3: Mở Kernel -> Run All Cells
 
-Nội dung phân tích trong notebook
-Notebook bao gồm các bước chính:
+## Nội dung phân tích trong notebook
 
-Thu thập dữ liệu (Web Crawling)
-Tự thu thập dữ liệu phòng trọ từ các website cho thuê nhà.
+- Thu thập dữ liệu (Web Crawling): Tự thu thập dữ liệu phòng trọ từ các website cho thuê nhà.
+- Data Cleaning: 
+    + Xử lý dữ liệu thiếu
+    + Chuẩn hóa dữ liệu
+    + Loại bỏ dữ liệu bất thường
+- Data Encoding: Mã hóa các biến danh mục như thành phố và quận/huyện.
+- Feature Engineering: Tạo các biến mới như
+    + Log_Giá
+    + Log_Diện_Tích
+    + Giá_trên_m2
+- Data Visualization: 
+    + Histogram
+    + Boxplot
+    + Correlation Heatmap
+    + Scatter Plot
+    + t-SNE visualization
 
-Data Cleaning
 
-Xử lý dữ liệu thiếu
-
-Chuẩn hóa dữ liệu
-
-Loại bỏ dữ liệu bất thường
-
-Data Encoding
-Mã hóa các biến danh mục như thành phố và quận/huyện.
-
-Feature Engineering
-
-Tạo các biến mới như:
-
-Log_Giá
-
-Log_Diện_Tích
-
-Giá_trên_m2
-
-Data Visualization
-
-Histogram
-
-Boxplot
-
-Correlation Heatmap
-
-Scatter Plot
-
-t-SNE visualization
 
